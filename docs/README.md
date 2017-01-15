@@ -1,37 +1,24 @@
 ## Welcome to [O]pen [I]mage [V]iewer
 
-You can use the [editor on GitHub](https://github.com/RandallFlagg/randallflagg.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+OpenImageViewer is a free, open source image viewer, which supports multiple platforms. You can use it for viewing all common image formats including RAW and PSD images.
+OIV is available for Windows and Linux and in the future other OSes such as Mac, FreeBSD and maybe even OS/2.
+If you want to report any bugs or request new features please use the Issues button above.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### OIV features
+1. Handle HUGE files (try to load an 80MP image and you will understand what we are taking about)
+2. Instantly switch between images
+3. Image manipulation methods for adjusting brightness, contrast, saturation, hue, gamma, exposure
 
-### Markdown
+### TODO
+#### UX
+1. semi-transparent widgets that display additional information such as thumbnails, metadata or histogram
+2. Support the ability to browse images in zip or MS Office files which can be extracted to a directory
+3. Metadata stored with the image can be displayed and you can add notes to images.
+4. Tthumbnail preview of the current folder
+5. File explorer panel which allows switching between folders
+6. Within a directory, apply a file filter, so that only images are displayed whose filenames have a certain string or match a regular expression
+7. Pseudo color function which allows creating false color images
+8. Synchronization of multiple instances. With this feature you can easily compare images by zooming and/or panning at the exactly same position or even by overlaying them with different opacities.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RandallFlagg/randallflagg.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+###License
+OIV is licensed under the OpenImageViewer License.
