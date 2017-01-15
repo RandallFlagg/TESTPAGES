@@ -10,6 +10,7 @@ If you want to report any bugs or request new features please use the Issues but
 3. Image manipulation methods for adjusting brightness, contrast, saturation, hue, gamma, exposure
 
 ### TODO
+
 #### UX
 1. semi-transparent widgets that display additional information such as thumbnails, metadata or histogram
 2. Support the ability to browse images in zip or MS Office files which can be extracted to a directory
